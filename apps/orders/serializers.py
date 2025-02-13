@@ -8,7 +8,6 @@ class ClickSerializers(serializers.ModelSerializer):
         model = ClickOrder
         fields = ('amount',)
 
-#
 
 # class ClickTransactionSerializers(serializers.Serializer):
 #     click_trans_id = serializers.CharField(max_length=255, required=True, allow_blank=True)
